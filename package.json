@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "bluebird": "^3.3.4",
-    "lodash": "^4.8.2"
+    "lodash": "^4.8.2",
+    "request-promise": "^2.0.1"
   }
 }
