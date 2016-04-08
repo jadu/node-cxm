@@ -4,7 +4,7 @@
     "email": "matt.dolan@spacecraft.co.uk"
   },
   "name": "cxm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Consume the Jadu CXM API",
   "main": "lib/cxm.js",
   "scripts": {
