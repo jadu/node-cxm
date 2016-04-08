@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Matt Dolan",
+    "email": "matt.dolan@spacecraft.co.uk"
+  },
+  "name": "cxm",
+  "version": "0.0.1",
+  "description": "Consume the Jadu CXM API",
+  "main": "lib/cxm.js",
+  "scripts": {
+    "test": "mocha",
+    "prepublish": "coffee -c -o lib/ src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadu/node-cxm.git"
+  },
+  "keywords": [
+    "cxm",
+    "jadu"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jadu/node-cxm/issues"
+  },
+  "homepage": "https://github.com/jadu/node-cxm#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "coffee-script": "^1.10.0",
+    "expect": "^1.16.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4"
+  }
+}
