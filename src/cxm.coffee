@@ -31,7 +31,7 @@ class Cxm
         .catch (response) ->
             message = "CXM API returned HTTP error #{response.statusCode}"
             if response.error
-                error = JSON.parse response.error
+                error = response.error
                 message += ": #{error.message}" if error.message
             return Promise.reject message: message, errorCode: response.statusCode
 
